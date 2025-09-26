@@ -6,13 +6,14 @@ Alap feltételek futtatáshoz:
  
  - Webkamera → működő kamera, amit az OpenCV felismer.
 
-Preferencia alapján virtuális környezet létrehozása: 
-	- python -m venv .venv
-	- .venv\Scripts\activate
+	Preferencia alapján virtuális környezet létrehozása:
+
+		python -m venv .venv
+		.venv\Scripts\activate
 	
 Futtatás:
 	
- - pip install ultralytics opencv-python
+ - 		pip install ultralytics opencv-python
  
- - python camera_yolo.py
+ - 		python camera_yolo.py
 
